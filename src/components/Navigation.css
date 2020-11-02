@@ -1,0 +1,38 @@
+
+.nav__menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color:#b388ff;
+    position: fixed;
+    padding: 15px;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+
+.nav__home{
+    margin-right: 50px;
+    border: solid 2px white;
+    color: #102027;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.nav__home:hover,
+.nav__about:hover{
+    opacity: 0.9;
+    background-color: burlywood;
+    transition: all 0.2s ease-in;
+}
+.nav__about{
+    color: #102027;
+    border: solid 2px white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}

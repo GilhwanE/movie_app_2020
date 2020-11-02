@@ -1,0 +1,39 @@
+
+.Detail__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.Detail__poster img{
+    width: 250px;
+}
+.Detail__data{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+.Detail__title{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Detail__title, .Detail__year, .Detail__genres{
+    margin-bottom: 20px;
+}
+
+.Detail__genres .genres__li{
+    display: inline;
+}
+
+@media screen and (max-width:760px){
+    .Detail__title,
+    .Detail__sumarry{
+        display: block;
+    }
+    .Detail__poster img{
+        width: 100%;
+    }
+}
